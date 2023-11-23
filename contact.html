@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Project</title>
+    <style>
+        body{
+            border: 1;
+            border-color: black;
+            padding: 5px;
+        }
+        table{
+            border: 1;
+            width: 200px;
+            height: 100px;
+            text-align: center;
+
+        }
+        a:active{
+            background-color: aqua;
+        }
+        .us{
+            background-color: yellow;
+            text-align: center;
+            padding: 10px;
+            border: red solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <h1 class="us">Contact us</h1>
+        <ul>
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li><a href="./index.html">Our Menu</a></li>
+            <li><a href="hours.html">Store Hours</a></li>
+            <li><a href="index.html">About <abbr title="The taco Shop">TS</abbr></a></li>
+    </nav>
+    <figure>
+    <img src="./owner-of-taco-shop.webp" alt="Taco shop" title="We love Tacos" width="400" height="300">
+    <figcaption>Taco shop</figcaption>
+    </figure>
+    </header>
+    <hr>
+    <main>
+        <h2>Our Contact Form</h2>
+        <form>
+            <fieldset>
+                <legend>Send us a message</legend>
+                <p>
+                    <label for="name" title="Name">Name:
+                        <input type="name" id="name" placeholder="Enter your name" required>
+                    </label>
+                </p>
+                <p>
+                    <label for="email">Email:
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                    </label>
+                </p>
+                <p>
+                    <label for="text">Enter your message:
+                        <br>
+                        <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                    </label>
+                </p>
+            </fieldset>
+            <button type="submit">Send</button> <button type="reset">Reset</button>
+        </form>   
+         <p>
+            <h2>Our Location</h2>
+        </p>
+        <p style="color: blue;">
+           <strong><em>Acropolis Mall, T-003, 3rd Floor, Rajdanga Main Rd, Kolkata Ph-1234567890</em></strong>
+        </p>
+        <p style="color: red;">
+            Ph no: 1234567890
+        </p>
+        <hr>
+    </main>
+    <footer>
+        <p>Copyright &copy; The Taco Shop</p>
+    </footer>
+</body>
+</html>
